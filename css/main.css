@@ -61,22 +61,23 @@ html {
 
 }
 
-@media (prefers-reduced-motion) {
-  img {
-    animation: none;
-  }
-}
 
-@media (prefers-color-scheme:dark) {
-  body {
-    background-color: #222;
-  }
-}
 
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
  * =============
+ @media (prefers-reduced-motion) {
+   img {
+     animation: none;
+   }
+ }
+
+ @media (prefers-color-scheme: dark) {
+   body {
+     background-color: #222;
+   }
+ }
  @media (prefers-reduced-motion)
  * Write your “prefers” media queries here, between these two `stylelint` comments.
  * Unfortunately, Markbot, is a little too old to understand them. :(
